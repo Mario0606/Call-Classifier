@@ -2,3 +2,4 @@ asterisk:
   host: 'asterisk host'
   user: 'asterisk user'
   password: 'asterisk password'
+  port: 'asterisk port'

@@ -12,5 +12,5 @@ class Ami:
         self.config = utils.SecureConfig().asterisk
 
     def connect():
-        self.manager.connect(self.config['host'])
+        self.manager.connect(self.config['host'], self.config['port'])
         self.manager.login(self.config['user'], self.config['password'])
